@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "massive": "^5.5.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.3"
@@ -16,6 +19,8 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "main": "server/index.js",
+  "proxy": "http://localhost:3030",
   "browserslist": [
     ">0.2%",
     "not dead",
